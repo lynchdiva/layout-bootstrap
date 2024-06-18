@@ -1,0 +1,18 @@
+.header,
+.footer {
+  background-color: #343a40;
+}
+
+.header__text,
+.footer__text {
+  color: rgb(213 214 215);
+}
+
+.header__link {
+  color: #7b7f83;
+}
+
+.header__link:focus,
+.header__link:hover {
+  color: rgb(213 214 215);
+}
