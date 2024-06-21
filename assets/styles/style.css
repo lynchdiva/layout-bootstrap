@@ -3,7 +3,7 @@
   background-color: #343a40;
 }
 
-.header__text,
+.navbar-brand_text-white,
 .footer__text {
   color: rgb(213 214 215);
 }
@@ -12,7 +12,23 @@
   color: #7b7f83;
 }
 
+.header__link .active {
+  color: #7b7f83;
+}
+
 .header__link:focus,
 .header__link:hover {
   color: rgb(213 214 215);
+}
+
+.navbar-toggler-icon {
+  background-image: url("../icons/menu.svg");
+}
+
+.custom-toggler {
+  border: none;
+}
+
+.custom-toggler:focus {
+  box-shadow: none;
 }
